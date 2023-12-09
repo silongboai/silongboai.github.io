@@ -1,9 +1,7 @@
 <?php
 
 // sí — yes
-$text = '
-
-';
+$text = file_get_contents('in.txt');
 
 $rows = preg_split("/[\r\n]+/", $text, -1, PREG_SPLIT_NO_EMPTY);
 
@@ -16,4 +14,4 @@ foreach ($rows as $row) {
     $r .= "['$cols[0]','$cols[1]'],\n";
 }
 
-file_put_contents('1.txt', $r);
+file_put_contents('out.txt', $r);
