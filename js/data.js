@@ -595,8 +595,8 @@ const MyData = {
         ['las verduras', 'vegetables'],
         ['las frutas', 'fruits'],
         ['cocinar', 'to cook'],
-        ['tengo hambre', 'i'],
-        ['tengo sed', 'i'],
+        ['tengo hambre', 'i’m hungry'],
+        ['tengo sed', 'i’m thirsty'],
     ],
     Meats: [
         ['la res', 'beef'],
